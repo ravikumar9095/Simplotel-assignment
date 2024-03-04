@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 9px;
+    }
+
+    .Navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #E55451;
+        padding: 1px;
+        font-weight: bold;
+    }
+
+    .Menu-imag {
+        height: 15px;
+        width: 15px;
+    }
+
+    .First {
+        display: flex;
+        background-color: blue;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        height: 40vh;
+    }
+
+    .image-0 {
+        height: 100%;
+        width: 35vw;
+    }
+
+    .maincont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .button-0 {
+        background-color: #E55451;
+        height: 25px;
+        width: 70px;
+        color: white;
+        border: none;
+    }
+
+    .image-2 {
+        height: 50%;
+        width: 20vw;
+    }
+
+    .image-3 {
+        height: 50%;
+        width: 20vw;
+    }
+
+    .image-4 {
+        height: 100%;
+        width: 20vw;
+        margin-left: 10px;
+    }
+
+    .image-5 {
+        height: 20px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .twoimages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagescontainer {
+        display: flex;
+        justify-content: center;
+        height: 70%;
+        margin: 20px;
+        width: fit-content;
+
+    }
+
+    .secondpage {
+        display: flex;
+        align-items: center;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        background-size: cover;
+        padding: 10px;
+        margin-top: 10px;
+        height: 40vh;
+    }
+
+    .content2ndpage {
+        background-color: #E55451;
+        padding: 10px;
+        height: fit-content;
+        width: fit-content;
+
+
+    }
+
+    .clickarrow {
+        display: flex;
+        align-items: center;
+        width: 1px;
+        height: 0px;
+    }
+}
+
+
+@media (min-width:768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #E55451;
+        padding: 1px;
+        font-weight: bold;
+    }
+
+    .menu-image {
+        height: 20px;
+        width: 20px;
+    }
+
+    .firstpage {
+        display: flex;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        height: 50vh;
+    }
+
+    .image-1 {
+        height: 100%;
+        width: 40vw;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .button-1 {
+        background-color: #E55451;
+        height: 40px;
+        width: 120px;
+        color: white;
+        border: none;
+    }
+
+    .image-2 {
+        height: 50%;
+        width: 20vw;
+
+    }
+
+    .image-3 {
+        height: 50%;
+        width: 20vw;
+
+    }
+
+    .image-4 {
+        height: 100%;
+        width: 20vw;
+        margin-left: 12px;
+    }
+
+    .image-5 {
+        height: 20px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .twoimages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagescontainer {
+        display: flex;
+        justify-content: center;
+        height: 75%;
+        margin: 20px;
+        width: fit-content;
+
+    }
+
+    .secondpage {
+        display: flex;
+        align-items: center;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        background-size: cover;
+        padding: 20px;
+        margin-top: 10px;
+        height: 50vh;
+    }
+
+    .content2ndpage {
+        background-color: #E55451;
+        padding: 10px;
+        height: fit-content;
+        width: fit-content;
+
+
+    }
+
+    .clickarrow {
+        display: flex;
+        align-items: center;
+        width: 1px;
+        height: 0px;
+    }
+}
+
+
+@media (min-width:1024px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #E55451;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .menu-image {
+        height: 30px;
+        width: 30px;
+    }
+
+    .firstpage {
+        display: flex;
+        background-color: blue;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        height: 50vh;
+    }
+
+    .image-1 {
+        height: 100%;
+        width: 45vw;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .button-1 {
+        background-color: #E55451;
+        height: 50px;
+        width: 150px;
+        color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    .image-2 {
+        height: 50%;
+        width: 20vw;
+        margin-bottom: 3px;
+
+    }
+
+    .image-3 {
+        height: 50%;
+        width: 20vw;
+        margin-top: 3px;
+
+    }
+
+    .image-4 {
+        height: 100%;
+        width: 20vw;
+        margin-left: 15px;
+    }
+
+    .image-5 {
+        height: 20px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .twoimages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagescontainer {
+        display: flex;
+        width: fit-content;
+        height: 80%;
+        margin: 20px;
+
+
+    }
+
+    .secondpage {
+        display: flex;
+        align-items: center;
+        background-image: Linear-gradient(to right, #fbe7a1, #f2a2e8);
+        background-size: cover;
+        padding: 40px;
+        margin-top: 10px;
+        height: 50vh;
+    }
+
+    .content2ndpage {
+        background-color: #E55451;
+        padding: 15px;
+        height: fit-content;
+        width: fit-content;
+
+
+    }
+
+    .clickarrow {
+        display: flex;
+        align-items: center;
+        width: 1px;
+        height: 0px;
+    }
+}
